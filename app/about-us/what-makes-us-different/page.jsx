@@ -1,5 +1,6 @@
 "use client";
-import WeAreDifferent from "@/components/weAreDifferent";
+
+import WeAreDifferent from "../../../components/WeAreDifferent";
 
 function WhatMakesUsDifferenPage() {
   return (
