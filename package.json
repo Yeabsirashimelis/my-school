@@ -1,0 +1,35 @@
+{
+  "name": "my-school",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "cloudinary": "^2.4.0",
+    "framer-motion": "^11.3.24",
+    "leaflet": "^1.9.4",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
+    "next": "14.2.5",
+    "photoswipe": "^5.4.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.13.0",
+    "react-leaflet": "^4.2.1",
+    "react-photoswipe-gallery": "^3.0.2",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

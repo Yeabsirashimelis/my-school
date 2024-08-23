@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+/* Scrollbar Styles */
+
+/* WebKit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* Smaller width */
+  height: 6px; /* Smaller height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Lighter background for the track */
+  border-radius: 10px; /* Rounded corners for track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d81414; /* Red color for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a70000; /* Darker red on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #8b0e0e #f1f1f1; /* Red thumb and light gray track */
+}
+
+/* For other browsers without built-in scrollbar styling */
+body {
+  scrollbar-width: thin; /* Thin scrollbar for browsers like Firefox */
+  scrollbar-color: #911010 #f1f1f1; /* Red thumb and light gray track */
+}
+
+/* ACHIVER BG IMAGE */
+.image-bg {
+  background-image: url("/schoolPhoto.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay-bg {
+  /* background-color: rgba(202, 0, 0, 0.6); Adjust color and opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* Here we want to style classes that are coming from leaflet. */
+.leaflet-popup .leaflet-popup-content-wrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 190px;
+  height: auto;
+  background-color: rgb(252, 252, 252);
+  color: rgb(70, 68, 68);
+  border-radius: 7px;
+}
+
+.leaflet-popup .leaflet-popup-content {
+  margin: 0;
+}
+
+.leaflet-popup .leaflet-popup-content p {
+  margin: 0;
+}
+
+.leaflet-popup .leaflet-popup-content-wrapper {
+  border-bottom: 5px solid rgb(107, 7, 7);
+}
+
+.leaflet-popup .leaflet-popup-tip {
+  background-color: rgb(182, 21, 21);
+}
+
+.gallery-bg {
+  background: linear-gradient(to bottom, black, rgb(139, 10, 10));
+}
+
+.footer-bg {
+  background: linear-gradient(to top, black, rgb(139, 10, 10));
+}
