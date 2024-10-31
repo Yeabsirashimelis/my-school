@@ -96,9 +96,9 @@ function Gallery() {
         </p>
         <Link href="/gallery">
           <button
-            className="mt-6 border-2 text-lg 
-              border-red-800 w-full px-4 md:w-[30%] flex justify-center mx-auto py-2 hover:bg-black hover:border-black
-              hover:text-gray-50 hover:scale-105 font-bold transition-colors duration-400"
+            className="mt-6 border-2 border-[#0a1d30] w-full px-4 md:w-[30%] flex justify-center mx-auto py-2 
+             text-lg text-[#0a1d30] bg-white hover:bg-[#0a1d30] hover:text-white 
+             rounded-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105"
           >
             SEE OUR GALLERY
           </button>

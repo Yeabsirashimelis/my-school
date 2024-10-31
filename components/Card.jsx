@@ -66,7 +66,7 @@ function Card({ item, type }) {
         whileTap={{ scale: 0.95 }} // Scale down on tap for mobile interaction
       >
         <Image
-          src={item.images[2]}
+          src={item.images[0]}
           width={600}
           height={400}
           sizes="(max-width: 600px) 100vw, 50vw"
@@ -79,7 +79,7 @@ function Card({ item, type }) {
           </h2>
           <p className="text-gray-600 mb-4">{item.description}</p>
           <motion.button
-            className="inline-block bg-red-800 text-white font-semibold py-2 px-4 rounded-full hover:bg-red-700 transition duration-300"
+            className="inline-block bg-[#0a1d30] text-white font-semibold py-2 px-4 rounded-full hover:bg-blue-800 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => handleReadMore(type, item._id)}

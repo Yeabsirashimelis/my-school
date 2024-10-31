@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "photoswipe/dist/photoswipe.css";
 
 export const metadata = {
-  title: "school name School",
+  title: "Ruphael School",
   description: "kindergarten, primary and secondaty school",
 };
 

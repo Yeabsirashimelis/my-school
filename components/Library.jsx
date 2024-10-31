@@ -79,10 +79,10 @@ function Library() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="font-extrabold text-2xl text-yellow-600"
+            className="font-extrabold text-2xl text-[#0a1d30]"
           >
-            <span className="border-b-2 border-red-800"> LIB</span>
-            <span className="text-red-800">RARY</span>
+            <span className="border-b-2 border-blue-800 "> LIB</span>
+            <span className="">RARY</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, x: -50 }}

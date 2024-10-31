@@ -101,7 +101,7 @@ function EventOrNew({ type }) {
       <div className="prose prose-gray mb-6">
         <p>{content}</p>
       </div>
-      <div className="bg-red-100 p-4 rounded-lg shadow-md flex justify-between items-center">
+      <div className="bg-blue-300 p-4 rounded-lg shadow-md flex justify-between items-center">
         <p className="text-lg font-semibold text-gray-800">
           AUTHOR: {author.toUpperCase()}
         </p>

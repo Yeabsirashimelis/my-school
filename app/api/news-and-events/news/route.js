@@ -23,7 +23,7 @@ export const POST = async function (request) {
     await connectDB();
     const formData = await request.formData();
     const images = formData.getAll("images");
-
+    console.log(images);
     const newsData = {
       title: formData.get("title"),
       description: formData.get("description"),
@@ -43,7 +43,6 @@ export const POST = async function (request) {
         `data:image/png;base64,${imageBase64}`,
         { folder: "myschool" }
       );
-
       return result.secure_url;
     });
 

@@ -69,12 +69,13 @@ function HighAchievers() {
   return (
     <div className="px-6 py-8 mx-auto space-y-8 max-w-screen-lg">
       <div className="text-center space-y-3">
-        <h1 className="text-4xl font-bold text-black">
-          This Year’s <span className="text-red-600">Matric Results</span>
+        <h1 className="text-4xl font-bold text-[#0a1d30]">
+          This Year’s{" "}
+          <span className="text-blue-800">Ministry Exam Results</span>
         </h1>
         <p className="text-lg text-gray-700">
           Congratulations to our outstanding students who have excelled in their
-          matriculation exams. Their hard work and dedication have truly paid
+          grade 8 Ministry exams. Their hard work and dedication have truly paid
           off.
         </p>
       </div>

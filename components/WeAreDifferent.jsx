@@ -36,9 +36,8 @@ function WeAreDifferent() {
       {/* Content Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 py-4 px-4 lg:px-8 gap-8">
         <div className="space-y-4">
-          <h2 className="font-extrabold text-2xl text-yellow-400 mb-4">
-            <span className="border-b-2 border-red-800"> WHAT MAKES</span>
-            <span className="text-red-800"> US DIFFERENT</span>
+          <h2 className="font-extrabold text-2xl text-[#0a1d30] mb-4">
+            WHAT MAKES US DIFFERENT
           </h2>
           <p className="text-gray-800 leading-relaxed">
             At our school, we are proud to stand out from the crowd. We believe

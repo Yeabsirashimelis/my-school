@@ -25,12 +25,12 @@ function Levels() {
   return (
     <div className="py-12  px-6 lg:py-24 lg:px-20">
       <h1 className="relative flex items-center justify-center text-4xl md:text-5xl font-extrabold text-center text-black mb-8">
-        <span className="absolute left-[20%] w-1/6 border-b-2 border-red-700"></span>
+        <span className="absolute left-[20%] w-1/6 border-b-2 border-blue-900"></span>
         <span className="px-4">Levels</span>
-        <span className="absolute right-[20%] w-1/6 border-b-2 border-red-700"></span>
+        <span className="absolute right-[20%] w-1/6 border-b-2 border-blue-900"></span>
       </h1>
 
-      <div className="rounded-full footer-bg lg:py-24 grid px-12 py-12 grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="rounded-full bg-[#0A2540]  lg:py-24 grid px-12 py-12 grid-cols-1 lg:grid-cols-3 gap-8">
         <Link href="/academics/kindergarten">
           <motion.div
             ref={ref1}

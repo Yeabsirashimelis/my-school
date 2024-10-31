@@ -7,7 +7,7 @@ import Link from "next/link";
 function HomeMission() {
   return (
     <div className="bg-gray-100 py-12 px-6 lg:px-20">
-      <h1 className="text-center text-black text-4xl font-semibold mb-12">
+      <h1 className="text-center text-[#0a1d30] text-4xl font-semibold mb-12">
         A Different Way to Learn
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

@@ -16,18 +16,18 @@ function NewsAndEventsNav() {
     >
       <Link href="/news-and-events/news">
         <motion.p
-          whileHover={{ scale: 1.05, backgroundColor: "#fef2f2" }}
+          whileHover={{ scale: 1.05, backgroundColor: "#ADD8E6" }}
           transition={{ duration: 0.3 }}
-          className="block py-2 px-6 text-red-800 hover:text-red-600 rounded-md transition-colors duration-300"
+          className="block py-2 px-6 text-blue-800 hover:text-blue-600 rounded-md transition-colors duration-300"
         >
           - News
         </motion.p>
       </Link>
       <Link href="/news-and-events/events">
         <motion.p
-          whileHover={{ scale: 1.05, backgroundColor: "#fef2f2" }}
+          whileHover={{ scale: 1.05, backgroundColor: "#ADD8E6" }}
           transition={{ duration: 0.3 }}
-          className="block py-2 px-6 text-red-800 hover:text-red-600 rounded-md transition-colors duration-300"
+          className="block py-2 px-6 text-blue-800 hover:text-blue-600 rounded-md transition-colors duration-300"
         >
           - Events
         </motion.p>

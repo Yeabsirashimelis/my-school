@@ -51,9 +51,9 @@ function AboutMissisonsAndVisions() {
         </div>
       </div>
 
-      <h2 className="font-extrabold text-2xl mb-4 px-4 md:px-8 text-yellow-600">
-        <span className="border-b-2 border-red-800"> MISSION AND</span>
-        <span className="text-red-800"> VISION</span>
+      <h2 className="font-extrabold text-2xl mb-4 px-4 md:px-8 text-[#0a1d30]">
+        <span className="border-b-2 border-blue-800"> MISSION AND</span>
+        <span className=""> VISION</span>
       </h2>
 
       <div className="grid grid-cols-1 font-bold text-black md:grid-cols-2 gap-24 mx-auto mt-8">
@@ -68,7 +68,7 @@ function AboutMissisonsAndVisions() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <h3 className="text-lg">
-            <span className="border-b-4 border-red-900">OUR VISION</span>
+            <span className="border-b-4 border-blue-900">OUR VISION</span>
             STATEMENT
           </h3>
           <p>
@@ -112,7 +112,7 @@ function AboutMissisonsAndVisions() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <h3 className="text-lg">
-            <span className="border-b-4 border-red-900">OUR MISSION</span>
+            <span className="border-b-4 border-blue-900">OUR MISSION</span>
             STATEMENT
           </h3>
           <p>

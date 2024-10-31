@@ -27,7 +27,7 @@ function HomeMainParts() {
       </motion.div>
 
       <motion.div
-        className="bg-red-800 px-8 py-12 lg:px-12 lg:py-16 lg:h-[600px] text-gray-50 lg:flex lg:items-center lg:justify-center"
+        className="bg-[#0A2540] px-8 py-12 lg:px-12 lg:py-16 lg:h-[600px] text-gray-50 lg:flex lg:items-center lg:justify-center"
         initial={{ opacity: 0, x: -100 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -39,13 +39,13 @@ function HomeMainParts() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-2xl lg:text-3xl font-bold"
           >
-            EBENEZER SCHOOL
+            SANT RUPHAEL SCHOOL
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-4xl md:text-5xl mt-2"
+            className="text-4xl  md:text-5xl mt-2"
           >
             FEEL LIKE WE ARE THE RIGHT SCHOOL FOR YOU?
           </motion.p>

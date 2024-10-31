@@ -5,39 +5,6 @@
 body {
   overflow-x: hidden;
 }
-/* Scrollbar Styles */
-
-/* WebKit Browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 6px; /* Smaller width */
-  height: 6px; /* Smaller height for horizontal scrollbar */
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Lighter background for the track */
-  border-radius: 10px; /* Rounded corners for track */
-}
-
-::-webkit-scrollbar-thumb {
-  background: #d81414; /* Red color for the thumb */
-  border-radius: 10px; /* Rounded corners for the thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #a70000; /* Darker red on hover */
-}
-
-/* Firefox */
-* {
-  scrollbar-width: thin; /* Thin scrollbar */
-  scrollbar-color: #8b0e0e #f1f1f1; /* Red thumb and light gray track */
-}
-
-/* For other browsers without built-in scrollbar styling */
-body {
-  scrollbar-width: thin; /* Thin scrollbar for browsers like Firefox */
-  scrollbar-color: #911010 #f1f1f1; /* Red thumb and light gray track */
-}
 
 /* ACHIVER BG IMAGE */
 .image-bg {
@@ -78,17 +45,16 @@ body {
 }
 
 .leaflet-popup .leaflet-popup-content-wrapper {
-  border-bottom: 5px solid rgb(107, 7, 7);
+  border-bottom: 5px solid #0a1d30;
 }
 
 .leaflet-popup .leaflet-popup-tip {
-  background-color: rgb(182, 21, 21);
+  background-color: #0a1d30;
 }
 
 .gallery-bg {
-  background: linear-gradient(to bottom, black, rgb(139, 10, 10));
+  background: linear-gradient(to bottom, black, #0a1d30);
 }
-
 .footer-bg {
-  background: linear-gradient(to top, black, rgb(139, 10, 10));
+  background: linear-gradient(to top, black, #0a1d30);
 }

@@ -12,7 +12,7 @@ function Administers() {
 
   return (
     <div className="container mx-auto py-12 px-4 md:px-8">
-      <h2 className="text-4xl font-extrabold text-center text-red-800 mb-12">
+      <h2 className="text-4xl font-extrabold text-center text-[#0a1d30]  mb-12">
         Our Leadership Team
       </h2>
       <div ref={ref} className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -56,7 +56,7 @@ function Administers() {
                 className=" rounded-full shadow-lg"
               />
             </div>
-            <h3 className="text-2xl font-bold text-red-700 mb-2">
+            <h3 className="text-2xl font-bold text-[#0a1d30]  mb-2">
               {admin.name}
             </h3>
             <p className="text-gray-600">{admin.position}</p>

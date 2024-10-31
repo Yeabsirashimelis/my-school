@@ -37,7 +37,7 @@ function EventsMain({ type }) {
 
   return (
     <div className="px-4 py-8">
-      <h1 className="text-center text-red-800 text-4xl font-bold">
+      <h1 className="text-center text-[#0a1d30] text-4xl font-bold">
         <span className="text-5xl">{firstLetter}</span>
         {theRest}
       </h1>

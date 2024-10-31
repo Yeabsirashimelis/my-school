@@ -33,9 +33,9 @@ function NewsAndEventsForHome() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative flex items-center justify-center text-4xl md:text-5xl font-extrabold text-center text-black mb-8"
         >
-          <span className="absolute left-[8%] w-1/6 border-b-2 border-red-700"></span>
+          <span className="absolute left-[8%] w-1/6 border-b-2 border-blue-900"></span>
           <span className="px-4">News & Events</span>
-          <span className="absolute right-[8%] w-1/6 border-b-2 border-red-700"></span>
+          <span className="absolute right-[8%] w-1/6 border-b-2 border-blue-900"></span>
         </motion.h1>
         <p className="font-extralight text-sm sm:text-base mt-2">
           Stay informed with the latest updates and happenings at our school.
@@ -61,7 +61,7 @@ function NewsAndEventsForHome() {
                 exit={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.5 }}
               >
-                <h2 className="font-extrabold text-lg lg:text-xl text-red-800">
+                <h2 className="font-extrabold text-lg lg:text-xl text-[#0A2540]">
                   <em>SEE ALL NEWS</em>
                 </h2>
                 <p className="font-light text-sm mt-2">
@@ -171,7 +171,7 @@ function NewsAndEventsForHome() {
                 exit={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.5 }}
               >
-                <h2 className="font-extrabold text-lg lg:text-xl text-red-800">
+                <h2 className="font-extrabold text-lg lg:text-xl text-bg-[#0A2540]">
                   <em>SEE ALL EVENTS</em>
                 </h2>
                 <p className="font-light text-sm mt-2">

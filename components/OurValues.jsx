@@ -61,9 +61,9 @@ function OurValues() {
         </div>
       </div>
 
-      <h2 className="font-extrabold text-2xl mb-4 px-4 md:px-8 text-yellow-600">
-        <span className="border-b-2 border-red-800"> OUR</span>
-        <span className="text-red-800"> VALUES</span>
+      <h2 className="font-extrabold text-2xl mb-4 px-4 text-[#0a1d30] md:px-8 ">
+        <span className="border-b-2 border-blue-800"> OUR</span>
+        <span className=" "> VALUES</span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mx-auto px-4 md:px-8">
@@ -78,8 +78,8 @@ function OurValues() {
           }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h3 className="text-lg font-bold text-red-800">
-            <span className="border-b-4 border-red-800">OUR STUD</span>
+          <h3 className="text-lg font-bold text-blue-900">
+            <span className="border-b-4 border-blue-900">OUR STUD</span>
             ENTS ARE
           </h3>
           <ul className="list-disc pl-5 text-gray-800">
@@ -146,8 +146,8 @@ function OurValues() {
           }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h3 className="text-lg font-bold text-red-800">
-            <span className="border-b-4 border-red-800">OUR PARE</span>NTS ARE
+          <h3 className="text-lg font-bold text-blue-900">
+            <span className="border-b-4 border-blue-900">OUR PARE</span>NTS ARE
           </h3>
           <ul className="list-disc pl-5 text-gray-800">
             <li>Valued</li>
@@ -171,8 +171,8 @@ function OurValues() {
           }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h3 className="text-lg font-bold text-red-800">
-            <span className="border-b-4 border-red-800">OUR TEAC</span>HERS ARE
+          <h3 className="text-lg font-bold text-blue-900">
+            <span className="border-b-4 border-blue-900">OUR TEAC</span>HERS ARE
           </h3>
           <ul className="list-disc pl-5 text-gray-800">
             <li>Values Driven</li>

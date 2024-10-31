@@ -17,17 +17,17 @@ function History() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          className="text-2xl lg:text-3xl px-4 py-2 bg-red-800 text-gray-50 mb-4"
+          className="text-2xl lg:text-3xl px-4 py-2 bg-[#0a1d30]  text-gray-50 mb-4"
         >
-          Welcome to Schoolname school
+          SANT. RUPHAEL school
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          className="text-red-800 px-4 py-2 text-lg"
+          className="text-[#0a1d30] px-4 py-2 text-lg"
         >
-          schoolname school is a private school, which was established in
+          Sant. Ruphael school is a private school, which was established in
           September 1993. It is one of the most prominent schools in Ethiopia,
           providing quality education at Nursery, Primary, Secondary and
           Pre-college levels. The School is known for providing high quality

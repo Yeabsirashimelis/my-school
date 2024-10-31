@@ -74,9 +74,9 @@ function Laboratory() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="space-y-4"
         >
-          <h1 className="font-extrabold text-2xl text-yellow-600">
-            <span className="border-b-2 border-red-800"> LABOR</span>
-            <span className="text-red-800">ATORY</span>
+          <h1 className="font-extrabold text-2xl text-[#0a1d30]">
+            <span className="border-b-2 border-blue-800"> LABOR</span>
+            <span className="">ATORY</span>
           </h1>
           <p className="text-sm">
             Safety is a top priority in our laboratory, with strict protocols in

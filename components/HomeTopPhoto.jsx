@@ -27,7 +27,7 @@ function HomeTopPhoto() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-4xl md:text-5xl font-extrabold mb-4 md:mb-6"
         >
-          Welcome to EBENEZER School
+          Welcome to SANT. RUPHAEL School
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 50 }}
@@ -45,8 +45,8 @@ function HomeTopPhoto() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
           href="/about-us/what-makes-us-different"
-          className="inline-block bg-red-700 text-white text-lg font-semibold
-            py-3 px-6 rounded-lg shadow-md hover:bg-red-800 transition duration-300"
+          className="inline-block bg-[#0A2540] text-white text-lg font-semibold
+            py-3 px-6 rounded-lg shadow-md hover:bg-[#0d3761] transition duration-300"
         >
           Learn More
         </motion.a>

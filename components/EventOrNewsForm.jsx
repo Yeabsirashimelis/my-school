@@ -60,7 +60,7 @@ function EventOrNewsForm({ type }) {
   }
   return (
     <div className="mt-8 max-w-2xl mx-auto p-4 border border-gray-300 rounded-lg shadow-lg">
-      <h1 className="text-center text-red-800 text-4xl font-bold mb-6">
+      <h1 className="text-center text-[#0a1d30] text-4xl font-bold mb-6">
         ADD {type.toUpperCase()}
       </h1>
       <form onSubmit={handleSubmit}>
@@ -75,7 +75,7 @@ function EventOrNewsForm({ type }) {
             type="text"
             id="title"
             name="title"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-800"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-900"
             placeholder={`Enter the ${type} title`}
             required
             value={title}
@@ -93,7 +93,7 @@ function EventOrNewsForm({ type }) {
           <textarea
             id="description"
             name="description"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-800"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-900"
             rows="3"
             placeholder="Enter a brief description"
             required
@@ -112,7 +112,7 @@ function EventOrNewsForm({ type }) {
           <textarea
             id="content"
             name="content"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-800"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-900"
             rows="6"
             placeholder="Enter the full content"
             required
@@ -132,7 +132,7 @@ function EventOrNewsForm({ type }) {
             type="file"
             id="images"
             name="images"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-800"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-900"
             multiple
             required
             onChange={handleImageChange}
@@ -150,7 +150,7 @@ function EventOrNewsForm({ type }) {
             type="text"
             id="author"
             name="author"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-800"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-900"
             placeholder="Enter the author's name"
             required
             value={author}
@@ -161,10 +161,10 @@ function EventOrNewsForm({ type }) {
         <div className="text-center">
           <button
             type="submit"
-            className={`px-6 py-3 text-white font-bold rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-800 ${
+            className={`px-6 py-3 text-white font-bold rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-900 ${
               loading
-                ? "bg-red-600 cursor-not-allowed"
-                : "bg-red-800 hover:bg-red-900"
+                ? "bg-[#0e2b47] cursor-not-allowed"
+                : "bg-[#0e2b47]  hover:bg-[#091f31]"
             }`}
             disabled={loading} // Disable button while loading
           >

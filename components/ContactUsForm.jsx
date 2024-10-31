@@ -1,6 +1,6 @@
 function ContactUsForm() {
   return (
-    <form className=" space-y-8 px-8 text-red-800">
+    <form className=" space-y-8 px-8 text-[#0a1d30]">
       <div className="flex flex-col  justify-center ">
         <label className="text-lg font-bold ">Name</label>
         <input
@@ -33,7 +33,7 @@ function ContactUsForm() {
 
       <button
         className="outline-none text-center font-bold text-xl
-            bg-red-800 text-gray-50 px-4 py-2 w-full hover:scale-105 
+            bg-[#0a1d30] text-gray-50 px-4 py-2 w-full hover:scale-105 
            transition-all duration-100"
       >
         Send

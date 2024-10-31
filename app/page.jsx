@@ -9,7 +9,7 @@ import Gallery from "@/components/Gallery";
 
 function HomePage() {
   return (
-    <div className="space-y-12 ">
+    <div className="space-y-12 overflow-x-hidden">
       <HomeTopPhoto />
       <Welcome />
       <HomeMainParts />
