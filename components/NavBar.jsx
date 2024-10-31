@@ -36,9 +36,7 @@ function NavBar() {
               />
             </p>
           </Link>
-          <p className="text-3xl">
-            <span className="text-4xl">S</span>ANT RUPHAEL SCHOOL
-          </p>
+          <p className="text-xl sm:text-2xl lg:text-4xl">SANT RUPHAEL SCHOOL</p>
         </div>
         {/* Navigation Links for Desktop */}
         <div className="hidden lg:flex space-x-6 pt-4">

@@ -10,7 +10,6 @@ export const metadata = {
   title: "Ruphael School",
   description: "kindergarten, primary and secondaty school",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
