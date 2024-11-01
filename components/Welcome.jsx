@@ -61,7 +61,7 @@ function Welcome() {
             animate={isInView ? { opacity: 1, x: 0, y: 0 } : {}}
             transition={{ duration: 2, ease: "easeOut" }}
           >
-            Welcome to Ebenezer School
+            Welcome to RUPHAEL School
           </motion.h3>
           <motion.p
             className="text-sm sm:text-lg text-[#413910] leading-relaxed border-2 sm:border-4 px-4 sm:px-6 py-4 border-blue-800 rounded-lg"
